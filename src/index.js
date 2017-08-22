@@ -31,8 +31,7 @@ import TabBarIndex from './component/TabBarIndex.js';
 @observer
 class ImClient extends React.Component {
     state: Object;
-
-    constructor(props: Object) {
+  constructor(props: Object) {
         super(props);
     }
 
@@ -53,7 +52,7 @@ class ImClient extends React.Component {
             // TODO: 思考下如何做 loading 全局覆盖
             return (
                 <ActivityIndicator
-                    style={styles.activityIndicatorContainer}
+                    style={styles.activityIndicatorContainerw}
                 />
             );
         }

@@ -68,7 +68,7 @@ class ProfileStore {
                 });
             }
         }
-    }
+    };
 
     // 更新用户信息
     async modifyUserInfo(field: string, value: string) {

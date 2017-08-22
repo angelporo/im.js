@@ -300,7 +300,7 @@ const styles = StyleSheet.create({
     bottomToolBar: {
         flexDirection: 'row',
         alignItems: 'center',
-        borderTopWidth: 1,
+      borderTopWidth: 1,
         borderTopColor: Color.LittleGrey
     },
     sendButton: {
@@ -313,7 +313,8 @@ const styles = StyleSheet.create({
     },
     input: {
         flex: 1,
-        color: Color.Black,
+      color: Color.Black,
+      maxHeight: 90,
         fontSize: FontSize.Main,
         padding: 10
     },
@@ -335,7 +336,7 @@ const styles = StyleSheet.create({
         padding: 4,
         paddingHorizontal: 8,
         overflow: 'hidden',
-        flex: 1,
+      flexShrink: 1,
         margin: 5,
         justifyContent: 'center'
     },
